@@ -255,5 +255,5 @@ function mainkan() {
 }
 
 function lokasi() {
-    window.open('http://bit.ly/LokasiPernikahan21022021');
+    window.open('https://goo.gl/maps/LfPmrqHpGCs7QeCN7');
 }

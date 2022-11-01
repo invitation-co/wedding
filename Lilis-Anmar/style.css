@@ -2,12 +2,12 @@
 
 body {
     font-family    : "Raleway", sans-serif !important;
-    background     : url("img/back.png") fixed;
+    background     : url("img/back2.jpg") fixed;
     background-size: cover;
 }
 
 .aboutme {
-    background     : url("img/back.png") no-repeat;
+    background     : url("img/back2.jpg") no-repeat;
     background-size: cover
 }
 

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
+
+.font-dancing {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-playball {
+  font-family: "Playball", cursive;
+}
+
+* {
+  font-family: "Open Sans", cursive;
+}
+
+.bg-berem {
+  background-color: #8785a2;
+}
+
+.text-berem {
+  color: #828191;
+}
+
+.bg-wakwak {
+  background-color: #ffe2e2;
+}
+
+.text-wakwak {
+  background-color: #ffe2e2;
+}
+
+.bg-fee {
+  background-color: #f6f6f6;
+}
+
+.bg-kulit {
+  background-color: #ffc7c7;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.scale {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.scale:hover {
+  transform: scale(1.05);
+}
+
+.norek {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  #front-image {
+    display: none;
+  }
+  #front-text {
+    padding-top: 40%;
+    height: 100vh;
+    background-image: url(../img/img3-foreground.jpg); background-size: cover;
+  }
+}
+
+#front-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}

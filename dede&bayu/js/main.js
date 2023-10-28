@@ -41,6 +41,22 @@ salin1.onclick = () => {
 };
 // copy end
 
+// copy start
+const rek2 = document.getElementById("rek2");
+const salin2 = document.getElementById("salin2");
+
+salin1.onclick = () => {
+  rek1.select(); // Selects the text inside the input
+  document.execCommand("copy"); // Simply copies the selected text to clipboard
+  Swal.fire({
+    icon: "success",
+    title: "No. Rekening Berhasil di Salin",
+    showConfirmButton: false,
+    timer: 1000,
+  });
+};
+// copy end
+
 // waktu start
 const countDownDate = new Date("Nov 04, 2023 00:00:00").getTime();
 const x = setInterval(function () {

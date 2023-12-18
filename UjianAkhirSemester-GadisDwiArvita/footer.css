@@ -1,0 +1,23 @@
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 35%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 30%;
+}
+#section3{
+    width:100%;
+    background-color: #ffa500;
+    height: 250px;
+    float:left;
+    padding:5px; 
+    text-align: justify;
+}
+

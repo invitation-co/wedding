@@ -882,6 +882,17 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+    /* File: styles.css */
+    .image-container {
+    max-width: 100%; /* Maksimal selebar kontainer */
+    margin: 0 auto;  /* Pusatkan gambar */
+}
+
+.responsive-image {
+    width: 100%; /* Gambar menyesuaikan lebar perangkat */
+    height: auto; /* Tinggi otomatis agar proporsi gambar tetap */
+    display: block; /* Hilangkan margin default */
+    max-width: 100%; /* Batasi ukuran maksimum gambar */
 
 /*--------------------------------------------------------------
 # Starter Section Section
